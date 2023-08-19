@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
+          rel = "stylesheet">
+    <meta content = "width=device-width initial-scale=1.0" name = "viewport">
+    <title>Lista de usuarios</title>
+    <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
+    <link href = "../assets/css/reset.css" rel = "stylesheet"/>
+    <link href = "../assets/css/variables.css" rel = "stylesheet"/>
+    <link href = "../assets/css/header.css" rel = "stylesheet">
+    <link href = "../assets/css/footer.css" rel = "stylesheet">
+    <link href = "../assets/css/componentes/header.css" rel = "stylesheet"/>
+    <link href = "../assets/css/lista_cliente.css" rel = "stylesheet"/>
+    <link href = "../assets/css/componentes/table.css" rel = "stylesheet"/>
+    <link href = "../assets/css/componentes/button.css" rel = "stylesheet"/>
+    <link href = "../assets/css/componentes/modal.css" rel = "stylesheet"/>
+    <link href = "../assets/css/_variables.css" rel = "stylesheet"/>
+</head>
+<body>
+<header class = "header__container">
+
+    <a class = "header__login-button" href = "adminProducts.html">
+        Menú Administrador
+    </a>
+</header>
+
+
+<main class = "clientes-container">
+    <table class = "table">
+        <thead>
+        <tr>
+            <th class = "table__column--p">Nombre</th>
+            <th class = "table__column--g">Email</th>
+            <th class = "table__column--g">Password</th>
+            <th class = "table__column--m table__align--right">
+                <a class = "simple-button simple-button--add" href = "new-usuario.html">Nuevo usuario</a>
+            </th>
+        </tr>
+        </thead>
+        <tbody data-table></tbody>
+    </table>
+</main>
+
+
+<footer>
+
+</footer>
+<script src = "../controllers/usuarioController.js" type = "module"></script>
+<script src = "../controllers/form-validation.js"></script>
+<script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

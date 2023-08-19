@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
+          rel = "stylesheet">
+    <meta content = "width=device-width initial-scale=1.0" name = "viewport">
+    <title> Productos_Alura-Geek</title>
+    <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
+    <link href = "../assets/css/reset.css" rel = "stylesheet"/>
+    <link href = "../assets/css/variables.css" rel = "stylesheet"/>
+    <link href = "../assets/css/header.css" rel = "stylesheet">
+    <link href = "../assets/css/footer.css" rel = "stylesheet">
+    <link href = "../assets/css/admin-products/admin-products.css" rel = "stylesheet">
+</head>
+<body>
+<header class = "header__container">
+    <div class = "header__items">
+        <a class = "header__logoHome" href = "../index.html">
+            <img alt = "logo" class = "header__logoHome-image" src = "../assets/img/logo.svg">
+        </a>
+        <div class = "header__search">
+            <input class = "header__search-input"
+                   id = "search__items"
+                   placeholder = " Qué desea buscar ?"
+                   type = "text">
+            <button class = "header__search-button"><img alt = "" class = "header__search-icon" src = "../assets/img/header/search.svg"></button>
+        </div>
+    </div>
+    <a class = "header__btn " href = "usuarios.html"> Users </a>
+</header>
+<main>
+    <section class = "products admin-products">
+        <div class = "product__container">
+            <div class = "product__header">
+                <h2 class = "product__title">Todos los productos</h2>
+                <a href = "new-product.html">
+                    <button class = "agregar-producto">agregar producto</button>
+                </a>
+            </div>
+            <section class = "products">
+                <div class = "product__container">
+                    <div class = "product__list" data-adminProducts></div>
+                </div>
+            </section>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class = "contacto__container">
+        <div class = "contacto__logo">
+            <a href = "../index.html">
+                <img alt = "logo" class = "contacto__logoFooter" src = "../assets/img/logo.svg">
+            </a>
+        </div>
+</footer>
+<script src = "../controllers/form-validation.js"></script>
+<script src = "../controllers/productsController.js" type = "module"></script>
+<script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>

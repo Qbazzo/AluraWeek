@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
+          rel = "stylesheet">
+    <meta content = "width=device-width initial-scale=1.0" name = "viewport">
+    <title> Edit Usuario</title>
+    <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
+    <link href = "../assets/css/reset.css" rel = "stylesheet"/>
+    <link href = "../assets/css/variables.css" rel = "stylesheet"/>
+    <link href = "../assets/css/header.css" rel = "stylesheet">
+    <link href = "../assets/css/footer.css" rel = "stylesheet">
+    <link href = "../assets/css/formStyle.css" rel = "stylesheet">
+</head>
+<body>
+<header class = "header__container">
+    <div class = "header__items">
+        <a class = "header__logoHome" href = "../index.html">
+            <img alt = "logo" class = "header__logoHome-image" src = "../assets/img/logo.svg">
+        </a>
+    </div>
+
+    <a class = "header__login" href = "adminProducts.html">
+        <button class = "header__login-button">Menú Administrador</button>
+    </a>
+</header>
+<main>
+    <section class = "new__product">
+        <form class = "form_container" data-form>
+            <h2 class = "new__product-title">Editar
+                                             Usuario</h2>
+            <input class = "new__product-input" data-nombre placeholder = "nombre" required type = "text">
+            <input class = "new__product-input" data-email placeholder = "Email" required type = "text">
+            <input class = "new__product-input" data-password placeholder = "password" required type = "text">
+            <button class = "new__product-button">Enviar</button>
+        </form>
+    </section>
+</main>
+<footer>
+
+</footer>
+<script src = "../controllers/editUsuario.js" type = "module"></script>
+<script src = "/controllers/form-validation.js"></script>
+<script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

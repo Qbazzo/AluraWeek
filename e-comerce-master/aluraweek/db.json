@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "name": "Alex",
+      "email": "Rex@alura.com",
+      "password": "ASS",
+      "id": "ecde0e73-30fa-49bd-82b4-967cca2c2ed2"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "UnstableGames"
+    },
+    {
+      "id": 2,
+      "name": "Devir"
+    },
+    {
+      "id": 3,
+      "name": "Diversos"
+    }
+  ],
+  "productos": [
+    {
+      "imageUrl": "https://teeturtle-s3-web.s3.amazonaws.com/accounts/2/products/1986199881278/UG-HTS-Base-Front-3-4-Site-Comp-1000x1000.jpg",
+      "name": "HERE TO SLAY",
+      "price": "$14.00",
+      "categoria": "UnstableGames",
+      "description": " Base Game en seccion sw",
+      "id": "a7c3f9f9-8671-4cf5-8774-96e9283a4806"
+    },
+    {
+      "imageUrl": "https://teeturtle-s3-web.s3.amazonaws.com/accounts/2/products/1986199881278/UG-HTS-Base-Front-3-4-Site-Comp-1000x1000.jpg",
+      "name": "HERE TO SLAY",
+      "price": "$14.00",
+      "categoria": "UnstableGames",
+      "description": "Base Game en ug",
+      "id": "42c318b2-1a84-4cce-97b5-c4d4daa49534"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/61Fk0kqoX5L.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "name": "Sushi Go!",
+      "price": "$319.00",
+      "categoria": "Devir",
+      "description": "Juego base en seccioon devir",
+      "id": "fe21867b-06ec-4e09-ad8e-f212a4a3df0d"
+    }
+  ]
+}
